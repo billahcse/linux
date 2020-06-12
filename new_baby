@@ -1,3 +1,13 @@
+Tools you must needs:
+
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install git -y
+sudo apt-get install make -y
+sudo apt-get install g++ -y
+sudo apt-get install wget -y
+
+
 REALTEK(RTL8821CE) wifo driver installation process:
 
 $ sudo lshw -class network // Check the networkdriver info
