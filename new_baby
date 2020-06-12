@@ -1,0 +1,22 @@
+REALTEK(RTL8821CE) wifo driver installation process:
+
+$ sudo lshw -class network // Check the networkdriver info
+$ sudo apt update sudo apt install -y dkms git 
+$ git clone https://github.com/tomaspinho/rtl8821ce.git
+$ cd rtl8821ce 
+$ sudo ./dkms-install.sh 
+$ sudo modprobe 8821ce  // if you got error then check be sure that Secure Boot must is disable.
+
+
+MiniConda installation process:
+
+$    wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
+$    Miniconda2-latest-Linux-x86_64.sh
+$    conda
+$    cat ~/.bashrc
+$    export PATH="/home/user_name/miniconda2/bin:$PATH"
+$    conda
+$    conda config --add channels defaults
+$    conda config --add channels bioconda
+$    conda config --add channels conda-forge
+$    conda install -c bioconda maker
