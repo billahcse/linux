@@ -44,3 +44,10 @@ opencv
 pip install opencv-python
 numpy
 pip install numpy
+
+pip3:
+sudo apt install python3-pip
+
+scikit-learn
+pip3 install -U scikit-learn
+
