@@ -32,8 +32,15 @@ $    conda config --add channels conda-forge
 $    conda install -c bioconda maker
 
 Anaconda installation process:
-Same as miniconda
+$   wget https://repo.continuum.io/archive/Anaconda3-2018.12-Linux-x86_64.sh
+$   bash Anaconda3-2018.12-Linux-x86_64.sh
+$   $    export PATH="/home/user_name/anaconda3/bin:$PATH"
 
 Spyder:
 $ conda update spyder
 $ conda install pyopengl
+
+opencv
+pip install opencv-python
+numpy
+pip install numpy
