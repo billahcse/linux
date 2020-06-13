@@ -60,3 +60,5 @@ tensorflow1.1.15
 $   conda create -n tensorflow_1_15
 $   conda activate tensorflow_1_15
 $   sudo apt install python-pip
+$   python -m pip install --upgrade pip setuptools
+$   mbillah@mbillah:~$ pip install tensorflow==1.15
