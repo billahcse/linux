@@ -51,3 +51,12 @@ sudo apt install python3-pip
 scikit-learn
 pip3 install -U scikit-learn
 
+
+gpu
+$   nvidia-smi
+$ 
+
+tensorflow1.1.15
+$   conda create -n tensorflow_1_15
+$   conda activate tensorflow_1_15
+$   sudo apt install python-pip
