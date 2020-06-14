@@ -62,3 +62,10 @@ $   conda activate tensorflow_1_15
 $   sudo apt install python-pip
 $   python -m pip install --upgrade pip setuptools
 $   mbillah@mbillah:~$ pip install tensorflow==1.15
+
+Labelme:
+conda create --name=labelme python=2.7
+conda activate labelme
+conda install pyqt
+pip install labelme
+conda install scikit-image
