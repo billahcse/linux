@@ -69,3 +69,8 @@ conda activate labelme
 conda install pyqt
 pip install labelme
 conda install scikit-image
+
+LabelImg:
+conda create --name labelimg
+pip3 install labelImg
+
