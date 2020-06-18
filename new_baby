@@ -74,3 +74,8 @@ LabelImg:
 conda create --name labelimg
 pip3 install labelImg
 
+Error fixed
+
+pip uninstall pyqtwebengine
+pip install pyqtwebengine
+
