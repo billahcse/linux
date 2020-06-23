@@ -79,3 +79,6 @@ Error fixed
 pip uninstall pyqtwebengine
 pip install pyqtwebengine
 
+
+pip install scikit-image
+pip install scikit-image
