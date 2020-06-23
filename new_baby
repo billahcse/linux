@@ -82,3 +82,4 @@ pip install pyqtwebengine
 
 pip install scikit-image
 pip install scikit-image
+conda install -c conda-forge scikit-image
