@@ -79,7 +79,7 @@ Error fixed
 pip uninstall pyqtwebengine
 pip install pyqtwebengine
 
-
+more then 0.16
 pip install scikit-image
 pip install scikit-image
 conda install -c conda-forge scikit-image
