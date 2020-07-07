@@ -83,3 +83,7 @@ more then 0.16
 pip install scikit-image
 pip install scikit-image
 conda install -c conda-forge scikit-image
+
+vggface:
+ pip install keras==2.2.4
+pip install -U scikit-learn
