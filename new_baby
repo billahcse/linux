@@ -87,3 +87,7 @@ conda install -c conda-forge scikit-image
 vggface:
  pip install keras==2.2.4
 pip install -U scikit-learn
+
+$ sudo add-apt-repository ppa:nilarimogard/webupd8
+$ sudo apt update
+$ sudo apt install woeusb
