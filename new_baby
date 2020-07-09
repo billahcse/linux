@@ -96,3 +96,18 @@ $ sudo apt install woeusb
 sudo add-apt-repository ppa:gezakovacs/ppa
 sudo apt-get update
 sudo apt-get install unetbootin
+
+
+--- Ubuntu 18.04 / Linux Mint 19 / Debian 10 ---
+sudo apt update
+sudo apt -y upgrade
+sudo apt -y install r-base
+
+
+sudo apt -y install wget
+wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.2.5042-amd64.deb
+sudo apt install ./rstudio-1.2.5042-amd64.deb
+
+If you encounter any dependency problems, run:
+
+sudo apt -f install
