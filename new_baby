@@ -115,3 +115,5 @@ sudo apt -f install
 
 r package
 sudo apt-get install -y r-cran-googlevis
+
+conda install r-png r-rcurl
