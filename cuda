@@ -5,3 +5,4 @@ sudo rm -rf /usr/local/cuda*
 ubuntu-drivers devices
 sudo apt-get install gcc
 sudo apt-get install make
+sudo lshw -C display
